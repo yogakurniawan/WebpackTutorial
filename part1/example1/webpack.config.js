@@ -13,7 +13,7 @@ module.exports = {
         warnings: false,
       },
     }),
-    new webpack.optimize.OccurrenceOrderPlugin()
+    new webpack.optimize.OccurrenceOrderPlugin(true)
   ],
   module: {
     loaders: [{
